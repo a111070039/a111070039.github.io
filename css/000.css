@@ -1,13 +1,53 @@
 body {
     font-family: 'Noto Sans TC', sans-serif;
-}
-
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    }
+    h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     font-family: 'Noto Sans TC', sans-serif;
     text-transform: none;
-}
-
-.subheading {
+    }
+    .subheading {
     font-family: 'Noto Sans TC', sans-serif;
     text-transform: none;
-}  
+    }
+:root{
+    --bs-primary:#0B00A6;
+    --bs-primary-rgb: 11, 0, 166;
+    --bs-secondary:#bd5d38;
+    --bs-secondary-rgb: 238, 143, 0;
+}
+
+.email{
+    color:var(--bs-primary);
+}
+
+.email:hover{
+    background-color: #495057;
+    color: #fff;
+
+}
+
+.nav-item{
+    color: #bd5d38;
+}
+
+.nav-item:hover{
+    background-color: #495057;
+    color: #fff;
+
+}
+
+.expedu_icon{
+    color: #495057;
+}
+
+.expedu_icon:hover{
+    color: var(--bs-secondary);
+}
+
+a{
+    color: var(--bs-primary);
+}
+
+.social-icons .social-icons:hover {
+    background-color:var(--bs-secondary);
+}
