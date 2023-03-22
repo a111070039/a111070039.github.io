@@ -10,9 +10,9 @@ body {
     text-transform: none;
     }
 :root{
-    --bs-primary:#0B00A6;
+    --bs-primary:#dc3545;
     --bs-primary-rgb: 11, 0, 166;
-    --bs-secondary:#bd5d38;
+    --bs-secondary:#dc3545;
     --bs-secondary-rgb: 238, 143, 0;
 }
 
@@ -21,33 +21,20 @@ body {
 }
 
 .email:hover{
-    background-color: #495057;
+    background-color: #dc3545;
     color: #fff;
 
 }
 
 .nav-item{
-    color: #bd5d38;
+    color: #dc3545;
 }
 
 .nav-item:hover{
-    background-color: #495057;
+    background-color: #dc3545;
     color: #fff;
 
 }
 
 .expedu_icon{
-    color: #495057;
-}
-
-.expedu_icon:hover{
-    color: var(--bs-secondary);
-}
-
-a{
-    color: var(--bs-primary);
-}
-
-.social-icons .social-icons:hover {
-    background-color:var(--bs-secondary);
-}
+    color: #dc3545;
